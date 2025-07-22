@@ -1,0 +1,26 @@
+[
+    {
+        "name": "apple salad",
+        "ingredients": {
+            "apple": 2,
+            "lettuce": 1,
+            "lemon": 1
+        }
+    },
+    {
+        "name": "grilled chicken",
+        "ingredients": {
+            "raw_chicken": 1,
+            "lemon": 1,
+            "pumpkin": 1
+        }
+    },
+    {
+        "name": "veggie stir fry",
+        "ingredients": {
+            "broccoli": 1,
+            "carrot": 2,
+            "bell pepper": 1
+        }
+    }
+]
