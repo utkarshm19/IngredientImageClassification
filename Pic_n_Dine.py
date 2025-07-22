@@ -69,7 +69,7 @@ print("Training images:",len(train_loader))
 print("Validation images:",len(val_loader))
 print("Testing images:",len(test_loader))
 
-`from torchvision.models import resnet34, ResNet34_Weights
+from torchvision.models import resnet34, ResNet34_Weights
 
 resnet34(weights=ResNet34_Weights.IMAGENET1K_V1)
 
@@ -86,9 +86,9 @@ model.fc = nn.Sequential(
                nn.ReLU(inplace=True),
                nn.Linear(256, 31))
 
-model.eval()
+model.train()
 
-!nvidia-smi
+# !nvidia-smi  # Jupyter specific command removed
 
 use_cuda = True
 import time
